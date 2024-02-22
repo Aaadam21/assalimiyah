@@ -44,7 +44,7 @@ h6 {
 .full-screen-image {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-image: url('header.png');
   background-size: cover;
   background-position: center;
