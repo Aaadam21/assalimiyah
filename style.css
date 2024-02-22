@@ -1,0 +1,143 @@
+body {
+  font-family: Raleway;
+  color: #272829;
+}
+
+h1 {
+   font-family: Bebas Neue;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.head-bon {
+  display: flex;
+  justify-content: center;
+}
+
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+}
+
+.header-image {
+  position: relative;
+  display: inline-block;
+}
+/* body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+} */
+
+.full-screen-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('header.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Lapisan hitam dengan transparansi */
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: white;
+}
+
+.centered-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.centered-text p {
+  font-size: 1.2rem;
+}
+
+/* garis biruuu */
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background: #f5f8fd;
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px; /* Jarak antara judul dan paragraf */
+  position: relative; /* Menjadikan posisi relatif untuk pseudo-element */
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 90px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%); /* Menggeser 50% dari lebar elemen */
+}
+
+/* about dimulaaaiii */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Sesuaikan tinggi sesuai kebutuhan */
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* isiiiii */
+
+.ikon {
+   font-size: 25px;
+}
+
+.ikon a {
+   color: inherit;
+   text-decoration: none;
+}
+
+.ikon a:hover {
+   color: #999;
+}
