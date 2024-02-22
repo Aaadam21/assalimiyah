@@ -1,9 +1,3 @@
-body, html {
-margin: 0;
-padding: 0;
-height: 100%
-}
-
 body {
   font-family: Raleway;
   color: #272829;
@@ -35,16 +29,11 @@ h6 {
   position: relative;
   display: inline-block;
 }
-/* body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-} */
 
 .full-screen-image {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: url('header.png');
   background-size: cover;
   background-position: center;
@@ -78,23 +67,19 @@ h6 {
 }
 
 /* garis biruuu */
-section {
-  padding: 10px 0;
-  overflow: hidden;
-}
 
 .section-bg {
   background: #f5f8fd;
 }
 
 .section-title {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-bottom: 10px;
   position: relative;
   color: #173b6c;
@@ -124,12 +109,7 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%; /* Sesuaikan tinggi sesuai kebutuhan */
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 110px;
+  height: 100vh; /* Sesuaikan tinggi sesuai kebutuhan */
 }
 
 /* isiiiii */
